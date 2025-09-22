@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-const pool = require("../connectdb");
+const pool = require("../db/connectdb");
 
 //funções
 router.post("/", async (req, res) => {
