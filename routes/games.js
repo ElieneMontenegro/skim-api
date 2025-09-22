@@ -66,3 +66,8 @@ router.delete("/:id", async (req, res) => {
 });
 
 module.exports = router;
+
+// Status principais:
+// 201: objeto criado no banco
+// 200: resposta de sucesso
+// 404: objeto não encontrado
